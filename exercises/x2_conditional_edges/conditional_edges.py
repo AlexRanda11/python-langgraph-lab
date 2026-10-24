@@ -65,4 +65,4 @@ def invoke_graph(greeting: str) -> None:
 
     # Generate Diagram
     # Uncomment to draw the graph -> (graph.png)
-    graph.get_graph().draw_mermaid_png(output_file_path="examples/conditional_edges/graph.png")
+    graph.get_graph().draw_mermaid_png(output_file_path="exercises/x2_conditional_edges/graph.png")

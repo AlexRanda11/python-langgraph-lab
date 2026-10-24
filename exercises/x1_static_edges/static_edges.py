@@ -49,4 +49,4 @@ def invoke_graph(greeting: str) -> None:
 
     # Generate Graph
     # Uncomment to draw the graph -> (graph.png)
-    graph.get_graph().draw_mermaid_png(output_file_path="examples/static_edges/graph.png")
+    graph.get_graph().draw_mermaid_png(output_file_path="exercises/x1_static_edges/graph.png")

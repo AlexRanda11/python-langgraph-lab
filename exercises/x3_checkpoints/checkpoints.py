@@ -56,4 +56,4 @@ def invoke_graph(greeting: str) -> None:
 
     # Generate Graph
     # Uncomment to draw the graph -> (graph.png)
-    graph.get_graph().draw_mermaid_png(output_file_path="examples/checkpoints/graph.png")
+    graph.get_graph().draw_mermaid_png(output_file_path="exercises/x3_checkpoints/graph.png")

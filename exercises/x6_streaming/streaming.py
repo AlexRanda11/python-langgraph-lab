@@ -19,8 +19,6 @@ model = init_chat_model(model="gpt-5.4-mini")
 # Define Node that Invokes Model
 def call_model(state: MyState):
     """Call the LLM to generate a joke about a topic"""
-    # Note that message events are emitted even when the
-    # LLM is run using .invoke rather than .stream
     model_response = model.invoke([{
         "role": "user",
         "content": f"Generate a joke about {state.topic}"

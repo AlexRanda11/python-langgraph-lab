@@ -8,16 +8,19 @@ from exercises.x7_entrypoints.entrypoints import invoke_workflow as x7_invoke_wo
 
 def main():
     print("\n====================== Welcome to LangGraph ======================\n")
-
+    # Define User Preferences
     greeting = "Hello there!"
     food_preference = "I like pizza!"
     joke_topic = "potatoes"
     essay_topic = "the history of flight"
+
+    # Print User Preferences
     print(f"Human Message: {greeting}")
     print(f"Human Preference: {food_preference}")
     print(f"Joke Topic: {joke_topic}")
     print(f"Essay Topic: {essay_topic}")
 
+    # Prompt User for Choice
     choice = input("""\nPlease enter from the following choices:\n
         1. Static Edges
         2. Conditional Edges
@@ -46,12 +49,15 @@ def main():
             print("\n========================== Memory Store ==========================\n")
             x4_invoke_graph(greeting=greeting, food_preference=food_preference)
         case "5":
+            # Invoke Interrupts Graph
             print("\n=========================== Interrupts ===========================\n")
             x5_invoke_graph(greeting=greeting)
         case "6":
+            # Invoke Streaming Graph
             print("\n=========================== Streaming ============================\n")
             x6_invoke_graph(joke_topic=joke_topic)
         case "7":
+            # Invoke Entrypoints Graph
             print("\n========================== Entrypoints ===========================\n")
             x7_invoke_workflow(essay_topic=essay_topic)
 
