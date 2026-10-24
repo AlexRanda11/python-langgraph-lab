@@ -39,11 +39,10 @@ def invoke_graph(joke_topic: str):
     for chunk in graph.stream(
         MyState(topic=joke_topic),
         stream_mode="messages",
-        version="v1",
+        version="v2",
     ):
-        message_chunk, metadata = chunk
-        if not isinstance(message_chunk, BaseMessage):
-            raise TypeError("Expected a BaseMessage from the messages stream")
-        if message_chunk.content:
-            print(message_chunk.content, end="|", flush=True)
+        if chunk["type"] == "messages":
+            message_chunk, metadata = chunk["data"]
+            if message_chunk.content:
+                print(message_chunk.content, end="|", flush=True)
     print()
