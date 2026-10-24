@@ -1,0 +1,49 @@
+
+====================== Welcome to LangGraph ======================
+
+Human Message: Hello there!
+Human Preference: I like pizza!
+Joke Topic: potatoes
+Essay Topic: the history of flight
+
+Please enter from the following choices:
+
+        1. Static Edges
+        2. Conditional Edges
+        3. Checkpoints
+        4. Memory Store
+        5. Interrupts
+        6. Streaming
+        7. Entrypoints
+
+> 7
+
+Human Choice: 7
+
+========================== Entrypoints ===========================
+
+values: The history of flight is a story of human imagination, persistence, and scientific discovery. For centuries, people looked at birds and dreamed of rising into the sky. What began as myth and speculation eventually became one of humanity’s greatest achievements: controlled, powered flight. The path to that achievement was long, marked by failed experiments, daring inventors, and rapid technological progress.
+
+The dream of flight appears in many ancient stories. In Greek mythology, Daedalus and Icarus fashioned wings of feathers and wax to escape captivity. Although the tale ends in tragedy, it reflects an early understanding of both the allure and danger of flight. For much of human history, however, flight remained beyond reach. People could build kites, launch fireworks, and later create hot-air balloons, but sustained flight with a machine heavier than air seemed impossible.
+
+Serious scientific study of flight began during the Renaissance. Leonardo da Vinci sketched remarkable designs for flying machines, including winged contraptions and a primitive helicopter-like device. He carefully observed birds and tried to understand the mechanics of lift and motion. Though his inventions were never built in his lifetime, his work showed that flight could be studied as an engineering problem rather than a magical one.
+
+The first major breakthrough came in the late 18th century with the balloon. In 1783, the Montgolfier brothers in France launched the first successful hot-air balloon carrying human passengers. Balloons did not offer control or propulsion in the modern sense, but they proved that humans could leave the ground safely. Soon afterward, hydrogen balloons expanded the possibilities for aerial travel, exploration, and military observation.
+
+During the 19th century, inventors turned their attention to controlled flight. Sir George Cayley, often called the father of aerodynamics, made important advances by identifying the basic forces of flight: lift, drag, thrust, and weight. He designed gliders and recognized that wings, propulsion, and control should be treated as separate problems. His ideas laid the foundation for later aviation.
+
+Other pioneers built on Cayley’s work. Otto Lilienthal in Germany conducted extensive glider experiments in the 1890s, making more than 2,000 flights before a fatal crash ended his efforts. His research inspired many later aviators, including the Wright brothers in the United States. Wilbur and Orville Wright studied not only lift but also control, realizing that an aircraft needed to be stable and steerable to be truly useful.
+
+On December 17, 1903, at Kitty Hawk, North Carolina, the Wright brothers made the first powered, controlled flight in a heavier-than-air machine. Their aircraft, the Wright Flyer, stayed aloft for only 12 seconds on its first successful attempt, but the event changed history. The brothers continued refining their design, and within a few years, airplanes were becoming more practical and more widely recognized as a revolutionary invention.
+
+The early 20th century saw aviation develop rapidly. During World War I, airplanes evolved from experimental machines into tools of war, used for reconnaissance, bombing, and air combat. This period accelerated improvements in engines, materials, and design. After the war, pilots and engineers pushed for civilian uses of aircraft, leading to the growth of passenger aviation, air mail, and record-breaking long-distance flights.
+
+In the 1920s and 1930s, aviation entered a golden age. Aircraft became faster, safer, and more reliable. Charles Lindbergh’s solo transatlantic flight in 1927 captured the world’s imagination and demonstrated the potential for long-distance air travel. Amelia Earhart became a symbol of courage and possibility, especially for women in aviation, as she broke records and advocated for aviation’s future. At the same time, commercial airlines began to connect cities and continents, shrinking the world in ways previously unimaginable.
+
+World War II brought another leap forward. Military needs drove the development of more powerful engines, better navigation, pressurized cabins, and, most importantly, the jet engine. Jet aircraft dramatically increased speed and altered the future of both military and civilian aviation. After the war, jets transformed passenger travel, making it faster and more accessible.
+
+The postwar era also opened the door to even greater ambitions. Aviation merged with rocketry and space exploration, as aircraft technology contributed to the development of spacecraft. The same principles that made flight possible in the atmosphere also helped humans reach beyond it. Meanwhile, commercial aviation continued to expand, with larger airliners carrying more passengers over longer distances.
+
+Today, flight is an ordinary part of modern life, but its history reveals how extraordinary it is. Airplanes connect countries, support global trade, aid in disaster relief, and allow people to travel the world in hours rather than months. Yet the story of flight is more than a record of machines. It is a testament to human curiosity and the determination to overcome limits. From ancient myths to modern jetliners, the history of flight shows how a dream can become reality through imagination, experimentation, and perseverance.
+
+=========================== Toodle Pip! ==========================

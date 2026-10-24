@@ -1,7 +1,29 @@
+
+====================== Welcome to LangGraph ======================
+
+Human Message: Hello there!
+Human Preference: I like pizza!
+Joke Topic: potatoes
+Essay Topic: the history of flight
+
+Please enter from the following choices:
+
+        1. Static Edges
+        2. Conditional Edges
+        3. Checkpoints
+        4. Memory Store
+        5. Interrupts
+        6. Streaming
+        7. Entrypoints
+
+> 1
+
+Human Choice: 1
+
 ========================== Static Edges ==========================
 
 Hello from Node A! Receiving: ['Hello there!']
 Hello from Node B! Receiving: ['Hello there!']
 Hello from Node C! Receiving: ['Hello there!', 'A', 'B']
 
-==================================================================
+=========================== Toodle Pip! ==========================
