@@ -1,0 +1,8 @@
+======================= Conditional Edges ========================
+
+Hello from Node A! Receiving: ['Hello there!']
+Hello from Node B! Receiving: ['Hello there!']
+Hello from Node C! Receiving: ['Hello there!', 'A', 'B']
+Hello from Node X! Receiving: ['Hello there!', 'A', 'B', 'C']
+
+==================================================================

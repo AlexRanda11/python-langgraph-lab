@@ -1,0 +1,18 @@
+[project]
+name = "langgraph-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-core>=1.7.0",
+    "langgraph",
+    "pydantic>=2.14.1",
+    "requests>=2.34.2",
+    "typing>=3.10.0.0",
+    "typing-extensions>=4.16.0",
+    "uuid7>=0.1.0",
+]
+
+[project.scripts]
+my-script = "main:main" 
